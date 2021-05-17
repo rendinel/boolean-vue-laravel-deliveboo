@@ -1,0 +1,15 @@
+@mixin width-1200{
+    width: 1140px;
+    margin: 0 auto
+}
+@mixin background-grd{
+    background: linear-gradient(23deg, rgba(255,51,102, 1) 0%,
+    rgba(255,110,102, 1) 25%,
+    rgba(255,140,102, 1) 60%,
+    rgba(255,219,171, 1) 100%);
+    height: 500px
+}
+@mixin flex-between{
+    display: flex;
+    justify-content: space-between;
+}

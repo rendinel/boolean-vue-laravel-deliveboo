@@ -1,0 +1,20 @@
+.btn.btn-success.confirm-order{
+    background: rgba(255,110,102,1);
+    border: none
+}
+.payment-alert{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 500px;
+    background: #fff;
+    box-shadow: 0 0 10px #ccc;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    color: #333;
+    border-radius: 7px
+}

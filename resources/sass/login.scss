@@ -1,0 +1,38 @@
+.card{
+    margin-top: 100px;
+    color: #ec7f9a;
+}
+.card-header{
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    background: #E73C68;
+    font-family: 'Dancing Script', cursive;
+}
+.btn.btn-primary{
+    background: #E73C68;
+    border: none
+}
+.btn-link{
+    color: #ec7f9a;
+
+    &:hover{
+        color: #ec7f9a;
+    }
+}
+.form-check-label{
+    color: #ec7f9a;
+}
+.btn.btn-success{
+    border: none;
+    background: rgba(255,110,102,1);
+
+    &:hover{
+        cursor: pointer;
+        background: rgb(247, 90, 82);
+    }
+    &:active{
+        transform: translateY(4px);
+        background: rgb(236, 62, 52);
+    }
+}

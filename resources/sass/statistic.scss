@@ -1,0 +1,59 @@
+.statistic-body{
+    @media screen  and (max-width: 768px){
+        background-color: #fff;
+    }
+}
+
+.sticky-nav{
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+
+.statistic-container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-top:  30px ;
+        .statistic-card{
+            width: 500px;
+            background-color:#fff;
+            border-radius: 100px;
+            box-shadow:0px 0px 5px grey;
+            border-radius: 25px;
+            padding: 20px;
+        }
+}
+
+.button-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+
+}
+
+.chart-container{
+    margin-bottom: 200px;
+    @media screen  and (max-width: 768px){
+        margin-bottom: 0px;
+    }
+}
+
+.weight{
+    font-weight: bold;
+}
+
+.social-distancing{
+    margin-top: 80px;
+}
+
+.order-title{
+    text-align: center;
+    color: rgba(255,110,102,1);
+}
+.padding-title{
+    padding-top: 20px;
+}

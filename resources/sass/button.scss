@@ -1,0 +1,161 @@
+@mixin utility-button-danger {
+    width: 120px;
+    height: 40px;
+    background: #fff;
+    position: relative;
+    border-radius: 32px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+    span {
+      line-height: 40px;
+      font-weight: semibold;
+    }
+    &:nth-child(1) {
+        box-shadow:2.5px 2.5px 2.5px grey;
+        color: black;
+      &:hover {
+        box-shadow: inset 2.5px 2.5px 2.5px grey;
+        color: red;
+        background: #f3f0f1;
+      }
+      &:active {
+        box-shadow: inset 2.5px 2.5px 2.5px grey;
+        background: #f3f0f1;
+      }
+    }
+  }
+
+  @mixin utility-button-edit {
+    width: 120px;
+    height: 40px;
+    background: #fff;
+    position: relative;
+    border-radius: 32px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+    span {
+      line-height: 40px;
+      font-weight: semibold;
+    }
+    &:nth-child(1) {
+        box-shadow:2.5px 2.5px 2.5px grey;
+        color: black;
+      &:hover {
+        box-shadow: inset 2.5px 2.5px 2.5px grey;
+        color: green;
+        background: #f3f0f1;
+      }
+      &:active {
+        box-shadow: inset 2.5px 2.5px 2.5px grey;
+        background: #f3f0f1;
+      }
+    }
+  }
+
+  @mixin utility-button-home {
+    width: 120px;
+    height: 40px;
+    background: #fff;
+    position: relative;
+    border-radius: 32px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+    span {
+      line-height: 40px;
+      font-weight: semibold;
+    }
+    &:nth-child(1) {
+        box-shadow:2.5px 2.5px 2.5px grey;
+        color: black;
+      &:hover {
+        box-shadow: inset 2.5px 2.5px 2.5px grey;
+        color: blue;
+        background: #f3f0f1;
+      }
+      &:active {
+        box-shadow: inset 2.5px 2.5px 2.5px grey;
+        background: #f3f0f1;
+      }
+    }
+  }
+
+@mixin form-button{
+    width: 120px;
+    height: 40px;
+    background: #fff;
+    position: relative;
+    border-radius: 32px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+    line-height: 40px;
+    font-weight: semibold;
+    box-shadow:2.5px 2.5px 2.5px grey;
+    color: black;
+    &:hover {
+      box-shadow: inset 2.5px 2.5px 2.5px grey;
+      color: green;
+      background: #f3f0f1;
+    }
+    &:active {
+      box-shadow: inset 2.5px 2.5px 2.5px grey;
+      background: #f3f0f1;
+    }
+  }
+
+
+@mixin form-button-red{
+    width: 120px;
+    height: 40px;
+    background: #fff;
+    position: relative;
+    border-radius: 32px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+    line-height: 40px;
+    font-weight: semibold;
+    box-shadow:2.5px 2.5px 2.5px grey;
+    color: black;
+    &:hover {
+      box-shadow: inset 2.5px 2.5px 2.5px grey;
+      color: red;
+      background: #f3f0f1;
+    }
+    &:active {
+      box-shadow: inset 2.5px 2.5px 2.5px grey;
+      background: #f3f0f1;
+    }
+  }
+
+  @mixin create-button {
+        width: 120px;
+        height: 40px;
+        background: #fff;
+        position: relative;
+        border-radius: 32px;
+        text-align: center;
+        cursor: pointer;
+        transition: all 0.1s ease-in-out;
+        line-height: 40px;
+        font-weight: semibold;
+        box-shadow:2.5px 2.5px 2.5px grey;
+        color: black;
+        border-style: none;
+        &:hover {
+          box-shadow: inset 2.5px 2.5px 2.5px grey;
+          color: blue;
+          background: #f3f0f1;
+        }
+        &:active {
+          box-shadow: inset 2.5px 2.5px 2.5px grey;
+          background: #f3f0f1;
+        }
+      }
+
+      .border-none{
+          border-style: none;
+      }

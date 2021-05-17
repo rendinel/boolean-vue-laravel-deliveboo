@@ -1,0 +1,49 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+//style
+// @import 'style';
+
+//layouts
+@import 'layouts';
+
+//homepage
+@import 'homepage';
+
+//stile ristorante Amministratore
+
+@import 'adminRestaurant';
+
+// @import 'plate';
+// style pagina piatti
+@import 'plates';
+
+@import 'single-restaurant';
+
+// style pagina piatto
+@import 'button';
+
+// style pagina pagamenti
+@import 'payments';
+
+// style form
+@import 'form';
+
+// style pagina login
+@import 'login';
+
+//style pagina ordini
+@import 'orders';
+
+
+// style pagina statistiche
+@import 'statistic';
+
+
+@import '~@fortawesome/fontawesome-free/css/all.min.css';
